@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "rm -rf android/build"
+    "prepublish": "node ./scripts/cleanup.js"
   },
   "repository": {
     "type": "git",
